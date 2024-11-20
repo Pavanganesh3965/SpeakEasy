@@ -76,3 +76,40 @@ SI-GuidedProject-601004-1700586832/
 # ScreenShots:
 ![Website Demo 1](/images/demo_1.png "Website Demo 1")
 ![Website Demo 2](/images/demo_2.png "Website Demo_2")
+
+### Installation
+
+Follow these steps to set up and run the project:
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/Pavanganesh3965/SpeakEasy.git
+   cd SI-GuidedProject-601004-1700586832
+   ```
+
+2. **Set Up a Virtual Environment**  
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate    # For Linux/MacOS
+   .venv\Scripts\activate       # For Windows
+   ```
+
+3. **Install Dependencies**  
+   Use the provided YAML file to install all necessary dependencies:
+   ```bash
+   pip install -r app/Lip_Reading_-__Environment.yml
+   ```
+
+4. **Download Dataset**  
+   Ensure the GRID dataset is downloaded and placed in the `data` directory.
+
+5. **Run the Application**  
+   Launch the Streamlit app:
+   ```bash
+   streamlit run streamlitapp.py 
+   ```
+
+6. **Check Outputs**  
+   Test the application by uploading a video (`test_video.mp4` is included for reference). The model will analyze the lip movements and provide predictions.
+
+
