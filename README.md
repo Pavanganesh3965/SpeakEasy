@@ -74,4 +74,5 @@ SI-GuidedProject-601004-1700586832/
  ```
 
 # ScreenShots:
-![Website Demo 1](/images/demo_1.png)
+![Website Demo 1](/images/demo_1.png "Website Demo 1")
+![Website Demo 2](/images/demo_2.png "Website Demo_2")
